@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 8vh;
+    top: 0;
+    left: 0;
+    background:#329834 ;
+    color: green;
+    padding: 0 2rem;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    color: #fff;
+}
+.toogle{
+    display: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 500px;
+}
+.menu li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.bnts {
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+.bnts_second{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+}
+/* section héro*/
+.option{
+    width: 100%;
+    height: 100vh;
+    background: url(images/istockphoto-545653648-170667a.jpeg);
+    background-repeat: no-repeat; 
+   background-size: cover;
+   background-position: center;
+   flex-wrap: wrap;
+}
+.option .button   a{
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.button{
+    display: flex;
+    
+}
+.button .but{
+    border: 1px solid rgba(240, 8, 8, 0.864);
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    margin: 10px;
+}
+.button .but{
+    position: relative;
+   top: 500px;
+   left: 900px;
+}
+.button .but:hover{
+    background-color: red;
+    color: red;
+}
+
+
